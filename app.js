@@ -27,7 +27,7 @@ const { ApiException } = errors;
 const version = require('./package.json').version;
 
 global.xmppClients = [];
-global.port = 5595;
+global.port = 8080;
 global.LobbyBotPort = 80;
 
 axios.defaults.headers["user-agent"] = `NeoniteServer/${version} axios/${axiosPackage.version}`;
